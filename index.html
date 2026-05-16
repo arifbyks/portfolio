@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Full Stack Developer - Kişisel Portföy Sitesi. Modern web teknolojileri ile geliştirilen projeler ve profesyonel deneyimler.">
+  <title>Arif B. | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow--1"></div>
+  <div class="bg-glow bg-glow--2"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">&lt;AB/&gt;</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#hero" class="active">Ana Sayfa</a>
+        <a href="#about">Hakkımda</a>
+        <a href="#projects">Projeler</a>
+        <a href="#contact">İletişim</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero section" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Projelere açığım
+        </div>
+        <h1 class="hero-title">
+          Merhaba, ben<br>
+          <span class="gradient-text">Arif Büyükköse</span>
+        </h1>
+        <p class="hero-subtitle">Full Stack Developer</p>
+        <p class="hero-desc">
+          Modern web teknolojileri ile kullanıcı odaklı, performanslı ve ölçeklenebilir 
+          uygulamalar geliştiriyorum. Hem frontend hem backend tarafında deneyim sahibiyim.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-rocket"></i> Projelerimi Gör
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-solid fa-envelope"></i> İletişime Geç
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <span class="section-label fade-in">Hakkımda</span>
+      <h2 class="section-title fade-in">Ben Kimim?</h2>
+      <p class="section-desc fade-in">
+        Yazılım dünyasında tutkuyla çalışan bir Full Stack Developer'ım.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <p>
+            Yazılım geliştirme sürecinin her aşamasında — tasarımdan dağıtıma kadar — 
+            aktif olarak yer alıyorum. Frontend'de modern ve responsive arayüzler oluştururken, 
+            backend'de güvenli ve performanslı API'ler geliştiriyorum.
+          </p>
+          <p>
+            Sürekli öğrenmeye ve kendimi geliştirmeye odaklanıyorum. Ekip çalışmasına 
+            yatkınım ve temiz kod yazmayı prensip ediniyorum.
+          </p>
+
+          <div class="info-list">
+            <div class="info-item">
+              <div class="icon">📍</div>
+              <div>
+                <div class="label">Konum</div>
+                <div class="value">Türkiye, Ankara</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">💼</div>
+              <div>
+                <div class="label">Deneyim</div>
+                <div class="value">Full Stack Geliştirici</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">🎓</div>
+              <div>
+                <div class="label">Eğitim</div>
+                <div class="value">Web Tasarım ve Kodlama</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">🌐</div>
+              <div>
+                <div class="label">Diller</div>
+                <div class="value">Türkçe, İngilizce</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-in">
+          <h3 style="font-size:1.1rem; margin-bottom:20px; color:var(--text-secondary);">
+            Teknolojiler & Yetenekler
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-tag">HTML5</div>
+            <div class="skill-tag">CSS3</div>
+            <div class="skill-tag">JavaScript</div>
+            <div class="skill-tag">TypeScript</div>
+            <div class="skill-tag">React</div>
+            <div class="skill-tag">Next.js</div>
+            <div class="skill-tag">Node.js</div>
+            <div class="skill-tag">PHP</div>
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">MySQL</div>
+            <div class="skill-tag">MongoDB</div>
+            <div class="skill-tag">Git</div>
+            <div class="skill-tag">Docker</div>
+            <div class="skill-tag">REST API</div>
+            <div class="skill-tag">FastAPI</div>
+            <div class="skill-tag">Linux</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <span class="section-label fade-in">Projeler</span>
+      <h2 class="section-title fade-in">Son Çalışmalarım</h2>
+      <p class="section-desc fade-in">
+        Geliştirdiğim bazı projeler. Her biri farklı teknolojiler ve yaklaşımlar içermektedir.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Görev Takip Sistemi">
+            <div class="project-overlay">
+              <a href="https://github.com/arifbyks/TaskFlow" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" title="Canlı Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>PHP</span><span>MySQL</span><span>jQuery</span>
+            </div>
+            <h3>Görev & Proje Takip Sistemi</h3>
+            <p>Ekiplerin proje ve görevlerini yönetmesini sağlayan kapsamlı bir yönetim paneli. Admin ve kullanıcı rolleri destekler.</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Dijital Sıra Sistemi">
+            <div class="project-overlay">
+              <a href="https://github.com/arifbyks/sirala" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://sirala.onrender.com/" target="_blank" title="Canlı Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>FastAPI</span><span>Next.js</span><span>WebSocket</span>
+            </div>
+            <h3>Dijital Sıra Yönetim Sistemi</h3>
+            
+            <p>QR kod tabanlı, gerçek zamanlı kuyruk yönetim sistemi. İşletmeler için fiziksel donanım gerektirmeyen modern çözüm.</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop" alt="Öğrenci Kayıt Sistemi">
+            <div class="project-overlay">
+              <a href="https://github.com/arifbyks/OgrenciBilgiSistemi" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" title="Canlı Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>PHP</span><span>MySQL</span><span>Bootstrap</span>
+            </div>
+            <h3>Öğrenci Kayıt Sistemi</h3>
+            <p>Öğrenci bilgilerini kaydeden, fotoğraf yükleme destekli yönetim paneline sahip modern kayıt sistemi.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <span class="section-label fade-in">İletişim</span>
+      <h2 class="section-title fade-in">Birlikte Çalışalım</h2>
+      <p class="section-desc fade-in">
+        Bir projeniz mi var? Birlikte harika şeyler yaratabiliriz. Bana ulaşın!
+      </p>
+
+      <div class="contact-wrapper">
+        <div class="fade-in">
+          <p class="contact-info-text">
+            Her türlü iş birliği, freelance proje veya soru için benimle iletişime geçebilirsiniz. 
+            En kısa sürede dönüş yapacağım.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:arifbuyukkose02@gmail.com" class="contact-link">
+              <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <div class="c-label">E-Posta</div>
+                <div class="c-value">arifbuyukkose02@gmail.com</div>
+              </div>
+            </a>
+            <a href="https://github.com/arifbyks" target="_blank" class="contact-link">
+              <div class="c-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <div class="c-label">GitHub</div>
+                <div class="c-value">github.com/arifbyks</div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/arif-b%C3%BCy%C3%BCkk%C3%B6se-117773177/" target="_blank" class="contact-link">
+              <div class="c-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div>
+                <div class="c-label">LinkedIn</div>
+                <div class="c-value">linkedin.com/in/arifbyks</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form fade-in" id="contactForm">
+          <div class="form-group">
+            <label for="name">Adınız</label>
+            <input type="text" id="name" name="name" placeholder="Adınızı giriniz" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-Posta</label>
+            <input type="email" id="email" name="email" placeholder="E-posta adresiniz" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mesajınız</label>
+            <textarea id="message" name="message" placeholder="Mesajınızı yazınız..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+            <i class="fa-solid fa-paper-plane"></i> Gönder
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">&copy; 2026 Arif Büyükköse. Tüm hakları saklıdır.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/arifbyks" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/arif-b%C3%BCy%C3%BCkk%C3%B6se-117773177/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/arifbyks" target="_blank" aria-label="Twitter"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
