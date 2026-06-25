@@ -10,9 +10,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // ===== Ayarlar =====
-$to_email       = "arifbuyukkose02@gmail.com";
-$gmail_user     = "arifbuyukkose02@gmail.com";       // Gmail adresiniz
-$gmail_app_pass = "kqqf svuz kcug mren";              // Gmail Uygulama Şifresi (App Password)
+$to_email       = "demo@mail.com";
+$gmail_user     = "demo@mail.com";       // Gmail adresiniz
+$gmail_app_pass = "app pass";              // Gmail Uygulama Şifresi (App Password)
 $subject_prefix = "[Portföy İletişim]";
 
 // Sadece POST isteklerini kabul et
